@@ -1,6 +1,6 @@
-print("Wendel Hector\n\n\n")
- #Premye pati
-# nimero 1
+# print("Wendel Hector\n\n\n")
+#  #Premye pati
+# #nimero 1
 # chen_karakte = input("Antre yon fraz avek majiskil: ")
 # print("Chen nan an miniskil net:"+chen_karakte.lower())
 
@@ -164,16 +164,79 @@ print("Wendel Hector\n\n\n")
 # print(f"Twazyem lis la se: {lis3}")
 # print(f"Lis reyini an se: {nou_l}")
 
-#pati 3
-#nimero 1
-diksyo = { 'kle1' : 'vale', 'kle2' : 45, 'kle3' : 'waww', 'kle4' : 'wendel', 'kle5' : 90}
+# #pati 3
+# #nimero 1
+# diksyo = { 'kle1' : 'vale', 'kle2' : 45, 'kle3' : 'waww', 'kle4' : 'wendel', 'kle5' : 90}
 
-vale_yo = [ ]
-for cle in diksyo:
-    vale = diksyo[cle]
-    vale_yo.append(vale)
-print(f"Diksyone a se: {diksyo}")
-print(f"Vale yo se: {vale_yo}")
+# vale_yo = [ ]
+# for cle in diksyo:
+#     vale = diksyo[cle]
+#     vale_yo.append(vale)
+# print(f"Diksyone a se: {diksyo}")
+# print(f"Vale yo se: {vale_yo}")
+
+# #nimero 2
+# chenn = input("Antre yon teks: ")
+
+# if isinstance(chenn, str) and chenn.startswith("{") and chenn.endswith("}"):
+#     print("Wi li genyen devan ak deye")
+# else:
+#     print("Li pa genyenl")
+
+# #nimero 3
+# diksyo = { 'kle1' : 'vale', 'kle2' : 45, 'kle3' : 'waww', 'kle4' : 'wendel', 'kle5' : 90}
+# for kle in diksyo.keys():
+#     print(kle)
+
+##nimero 4
+# diksyo = { 'kle1' : 'vale', 'kle2' : 45, 'kle3' : 'waww', 'kle4' : 'wendel', 'kle5' : 90}
+# for v in diksyo.values():
+#         print(v)
+
+# #nimero 5
+# diksyo = { 'kle1' : 'vale', 'kle2' : 45, 'kle3' : 'waww', 'kle4' : 'wendel', 'kle5' : 90}
+# diksyo_kopi = {}
+# for kle , vale in diksyo.items():
+#     diksyo_kopi[kle]= vale
+# print(f"diksyone original la se: {diksyo}")
+# print(f"diksyone kopi a se: {diksyo_kopi}")
+
+# #nimero 6
+# diksyo = { 'kle1' : 'vale', 'kle2' : 45, 'kle3' : 'waww', 'kle4' : 'wendel', 'kle5' : 90}
+# for k , v in diksyo.items():
+#     if isinstance(v, str):
+#         diksyo[k]= f"_{v}_"
+# print(diksyo)
+
+# #nimero 7
+# diksyo = { 'kle1' : 'vale', 'kle2' : 45, 'kle3' : 'waww', 'kle4' : 'wendel', 'kle5' : 90}
+# n_dik = {}
+# for kle, vale in diksyo.items():
+#     if isinstance(vale, int):
+#         n_dik[kle] = vale
+# print(n_dik)
+
+# #nimero 8
+# diksyo = { 'kle1' : 'vale', 'kle2' : 45, 'kle3' : 'waww', 'kle4' : 'wendel', 'kle5' : 90}
+# nou_d = []
+# for kl, vl in diksyo.items():
+#     nou_d.append((kl, vl))
+# print(nou_d)
+
+#nimero 9
+tipl = [('kle1', 'vale'), ('kle2', 45), ('kle3', 'waww'), ('kle4', 'wendel'), ('kle5', 90)]
+dik = {}
+for kle, vale in tipl:
+    dik[kle] = vale
+print(dik)
+
+
+
+
+
+
+
+
 
 
 
