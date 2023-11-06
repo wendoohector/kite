@@ -1,4 +1,6 @@
-# print("Wendel Hector\n\n\n")
+import random
+import string
+#  print("Wendel Hector\n\n\n")
 #  #Premye pati
 # #nimero 1
 # chen_karakte = input("Antre yon fraz avek majiskil: ")
@@ -6,6 +8,7 @@
 
 # # #nimero 2
 # chen = input("Antre yon chen karakte: ")
+
 # b = chen.split()
 # print(b)
 
@@ -188,7 +191,7 @@
 # for kle in diksyo.keys():
 #     print(kle)
 
-##nimero 4
+# #nimero 4
 # diksyo = { 'kle1' : 'vale', 'kle2' : 45, 'kle3' : 'waww', 'kle4' : 'wendel', 'kle5' : 90}
 # for v in diksyo.values():
 #         print(v)
@@ -223,12 +226,116 @@
 #     nou_d.append((kl, vl))
 # print(nou_d)
 
-#nimero 9
-tipl = [('kle1', 'vale'), ('kle2', 45), ('kle3', 'waww'), ('kle4', 'wendel'), ('kle5', 90)]
-dik = {}
-for kle, vale in tipl:
-    dik[kle] = vale
-print(dik)
+# #nimero 9
+# tipl = [('kle1', 'vale'), ('kle2', 45), ('kle3', 'waww'), ('kle4', 'wendel'), ('kle5', 90)]
+# dik = {}
+# for kle, vale in tipl:
+#     dik[kle] = vale
+# print(dik)
+
+# # nimero 10
+dick_1 = {'kle1':'rele','kle2':23,'kle3':'koi','kle4':34,'kle5':'waw'}
+dick_2 = {'kle1':'poukoi','kle2':45,'kle9':'atansyon','kle8':67,'kle5':'dako'}
+dick_3 = {}
+for el in dick_1:
+    if el in dick_2:
+        dick_3[el]=dick_1[el]+dick_2[el]
+    else:
+        dick_3[el] = dick_1[el]
+for el in dick_2:
+    if el not in dick_3:
+        dick_3[el] =dick_2[el]
+print(dick_3)
+
+# #Pati 4
+
+# #nimero 1
+
+# def enves(mo):
+#     return print(mo[::-1])
+# d = input("Antre yon mo: ")
+# enves(d)
+
+# #nimero 2
+# def code():
+#     al = string.ascii_lowercase
+#     c = " "
+#     w = int(input("Antre kantite let kod la ap gnyen: "))
+#     while w <1:
+#         input("li pa sipoze pi piti ke 1")
+#     j = 0
+#     while j < w:
+#         c += al[random.randint(0,25)]
+#         j+=1
+#     print(c)
+
+# code()
+
+#nimero 3
+# def code_san_repetisyon():
+#     al = string.ascii_lowercase
+#     c = ""
+#     w = int(input("Antre kantite let kod la ap gnyen: "))
+#     while w <1 or w>26:
+#         w = int(input("li pa sipoze pi piti ke 1, ni depase 26: "))
+#     j=0  
+#     while j < w:
+#         d_c = al[random.randint(0,25)]
+#         if d_c not in c:
+#             c+=d_c
+#             j+=1
+#     print(c)
+
+# code_san_repetisyon()
+
+# #nimero 4
+# def alnimerik():
+#     al = string.ascii_lowercase+string.digits
+#     c = ""
+#     w = int(input("Antre kantite let kod la ap gnyen: "))
+#     while w <1 or w>36:
+#         w = int(input("li pa sipoze pi piti ke 1, ni depase 26: "))
+#     j=0  
+#     while j < w:
+#         d_c = al[random.randint(0,35)]
+#         if d_c not in c:
+#             c+=d_c
+#             j+=1
+#     print(c)
+
+# alnimerik()
+
+#nimero 5
+
+
+
+# #nimero
+# def vigil():
+#     m=input("Antre mo a: ")
+#     new=""
+#     for el in m:
+#         new+=f"{el},"
+#     print(new)
+
+# vigil()
+
+#nimero 7
+
+
+
+
+
+
+            
+
+
+
+    
+
+
+
+
+
 
 
 
